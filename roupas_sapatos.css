@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .image {
+    width: 45%; /* Ajuste este valor conforme necessário */
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+ 

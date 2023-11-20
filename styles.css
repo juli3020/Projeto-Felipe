@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Bege claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  img {
+    max-width: 50%; /* Reduzindo a largura da imagem */
+    height: auto;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
